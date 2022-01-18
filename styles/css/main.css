@@ -5,20 +5,67 @@
 
 html {
   font-size: 62.5%;
-  min-height: 100%;
 }
 
 body {
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  min-width: 100%;
 }
 
 .header {
-  position: absolute;
-  min-width: 100vw;
-  max-height: 0.8vh;
+  min-width: 100%;
+  min-height: 80vh;
   background-image: url("/mobile/image-header.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header_company-name {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.header_motto {
+  margin-top: 8rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header_down-arrow {
+  display: block;
+  margin: auto;
+  animation-name: bouncingArrow;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-top: 9rem;
+}
+
+.header_menu {
+  display: block;
+  margin-right: 5rem;
+}
+
+@keyframes bouncingArrow {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
