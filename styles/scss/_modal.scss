@@ -1,0 +1,51 @@
+.modal {
+    clip-path: polygon(
+      0 10%,
+      90% 10%,
+      100% 1%,
+      100% 84%,
+      100% 100%,
+      53% 100%,
+      0 100%
+    );
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    margin: 12% auto;
+    min-width: 86vw;
+    min-height: 50vh;
+    background-color: $white; /* Fallback color */
+  }
+  
+  /* Modal Content/Box */
+  .modal_content {
+    background-color: $white;
+    margin-top: 6rem;
+  
+    &_menu {
+      height: 36vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+  
+      &_item > a {
+        display: block;
+        text-decoration: none;
+        color: $very-dark-grayish-blue;
+        font-family: $font-sans-serif;
+        font-size: 1.7rem;
+      }
+  
+      &_button {
+        border-style: none;
+        background-color: $yellow;
+        padding: 1.5rem 3.5rem;
+        border-radius: 4rem;
+        color: $very-dark-blue;
+        text-transform: uppercase;
+        font-family: $font-serif;
+        font-weight: 900;
+      }
+    }
+  }

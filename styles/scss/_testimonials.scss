@@ -1,0 +1,102 @@
+.testimonials {
+    margin: 6rem 1.5rem 3rem 1.5rem;
+  
+    &_header {
+      margin-bottom: 5rem;
+      font-family: $font-serif;
+      font-size: 1.7rem;
+      letter-spacing: 0.3rem;
+      color: $grayish-blue;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 900;
+    }
+  
+    &-1 {
+      margin-bottom: 6rem;
+      &_img {
+        display: block;
+        border-radius: 50%;
+        width: 20%;
+        margin: auto;
+      }
+  
+      &_paragraph {
+        font-family: $font-sans-serif;
+        color: $very-dark-grayish-blue;
+        margin: 2.5rem 1.8rem 2.5rem 1.8rem;
+      }
+  
+      &_name {
+        font-family: $font-serif;
+        color: $very-dark-blue;
+        font-weight: 900;
+        text-align: center;
+      }
+  
+      &_profession {
+        font-family: $font-sans-serif;
+        text-align: center;
+        color: hsl(210, 4%, 67%);
+        margin-top: 1rem;
+      }
+    }
+    &-2 {
+      margin-bottom: 6rem;
+      &_img {
+        display: block;
+        border-radius: 50%;
+        width: 20%;
+        margin: auto;
+      }
+  
+      &_paragraph {
+        font-family: $font-sans-serif;
+        color: $very-dark-grayish-blue;
+        margin: 2.5rem 1.8rem 2.5rem 1.8rem;
+      }
+  
+      &_name {
+        font-family: $font-serif;
+        color: $very-dark-blue;
+        font-weight: 900;
+        text-align: center;
+      }
+  
+      &_profession {
+        font-family: $font-sans-serif;
+        text-align: center;
+        color: hsl(210, 4%, 67%);
+        margin-top: 1rem;
+      }
+    }
+    &-3 {
+      margin-bottom: 6rem;
+      &_img {
+        display: block;
+        border-radius: 50%;
+        width: 20%;
+        margin: auto;
+      }
+  
+      &_paragraph {
+        font-family: $font-sans-serif;
+        color: $very-dark-grayish-blue;
+        margin: 2.5rem 1.8rem 2.5rem 1.8rem;
+      }
+  
+      &_name {
+        font-family: $font-serif;
+        color: $very-dark-blue;
+        font-weight: 900;
+        text-align: center;
+      }
+  
+      &_profession {
+        font-family: $font-sans-serif;
+        text-align: center;
+        color: hsl(210, 4%, 67%);
+        margin-top: 1rem;
+      }
+    }
+  }
