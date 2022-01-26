@@ -6,6 +6,9 @@
   html {
     font-size: 62.5%;
     overflow-x: hidden;
+    @media only screen and (min-width: $bp-small) {
+      font-size: 70%;
+    }
   }
   
   body {

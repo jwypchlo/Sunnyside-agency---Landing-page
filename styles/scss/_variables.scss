@@ -17,3 +17,10 @@ $dark-blue: hsl(198, 62%, 26%); //photography text
 $skyblue: hsl(164, 43%, 70%); //footer background
 $footer-name: hsl(164, 43%, 31%);
 $dark-moderate-cyan: hsl(168, 34%, 41%); //footer text
+
+//SCREEN SIZES - MEDIA QUERIES
+$bp-largest: 75em; // 1200px
+$bp-laptop: 64em; // 1024px
+$bp-tablet: 48em; // 768px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
